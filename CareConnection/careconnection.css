@@ -1,0 +1,209 @@
+#opening
+{
+	font-family: Great Vibes;
+	color: #000000;
+	font-size: 125px;
+	color: white;
+	margin-top: 250px;
+	margin-left: 10px;
+}
+
+#p2
+{
+	text-align: left;
+	font-size: 16px;	
+}
+
+#sub
+{
+	text-align: center;
+	font-family: Raleway;
+	color: white;
+	font-size: 65px;
+	margin-left: 10px;
+}
+
+body
+{
+	background-image: url("holdingHands.jpg"); 
+	background-size: 1280px 780px;
+	background-repeat: no-repeat; 
+} 
+
+h1
+{
+	font-family: Rockwell, "Courier Bold", Courier, Georgia, Times, "Times New Roman", serif;
+	font-size: 45px;
+	margin-left: 40px;
+}
+
+p
+{
+	font-family: Rockwell, "Courier Bold", Courier, Georgia, Times, "Times New Roman", serif;
+	font-size: 30px;
+	margin-left: 80px;
+	text-align: center;
+}
+
+#p2
+{
+	font-family: Rockwell, "Courier Bold", Courier, Georgia, Times, "Times New Roman", serif;
+	font-size: 30px;
+	margin-left: 80px;
+	text-align: left;
+}
+
+.group_list
+{
+	-moz-column-gap: 20;
+    -moz-column-count: 3;
+    -webkit-column-count: 3;
+    -webkit-column-gap: 20;
+    column-count: 3;
+    column-gap: 20;
+	list-style-type: none;
+	text-align: center;
+	font-family: Rockwell, "Courier Bold", Courier, Georgia, Times, "Times New Roman", serif;
+	font-size: 30px;
+}
+
+/* Add a dark background color with a little bit see-through */ 
+.navbar 
+{
+    margin-bottom: 0;
+    background-color: #2d2d30;
+    border: 0;
+    font-size: 11px !important;
+    letter-spacing: 4px;
+    opacity:0.9;
+}
+
+/* Add a gray color to all navbar links */
+.navbar li a, .navbar .navbar-brand 
+{ 
+    color: #d5d5d5 !important;
+}
+
+/* On hover, the links will turn white */
+.navbar-nav li a:hover 
+{
+    color: #000000 !important;
+}
+
+/* The active link */
+.navbar-nav li.active a 
+{
+    color: #000000 !important;
+    background-color:#29292c !important;
+}
+
+/* Remove border color from the collapsible button */
+.navbar-default .navbar-toggle 
+{
+    border-color: transparent;
+}
+
+
+
+.bg-1 
+{ 
+    background-color: #1abc9c; /* Green */
+    color: #ffffff;
+}
+
+.bg-2 
+{ 
+    background-color: #474e5d; /* Dark Blue */
+    color: #ffffff;
+}
+.bg-3 { 
+    background-color: #737575; /* White */
+    color: #555555;
+}
+
+.container-fluid 
+{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+html, body {height: 100%; margin: 0; padding: 0;}
+#map {height: 100%;}
+.controls 
+{
+	margin-top: 10px;
+	border: 1px solid transparent;
+	border-radius: 2px 0 0 2px;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	height: 32px;
+	outline: none;
+	box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+}
+
+#pac-input 
+{
+	background-color: #fff;
+	font-family: Roboto;
+	font-size: 15px;
+	font-weight: 300;
+	margin-left: 12px;
+	padding: 0 11px 0 13px;
+	text-overflow: ellipsis;
+	width: 300px;
+}
+
+#pac-input:focus 
+{
+	border-color: #4d90fe;
+}
+
+.pac-container 
+{
+	font-family: Roboto;
+}
+
+#type-selector 
+{
+	color: #fff;
+	background-color: #4d90fe;
+	padding: 5px 11px 0px 11px;
+}
+
+#type-selector label 
+{
+	font-family: Roboto;
+	font-size: 13px;
+	font-weight: 300;
+}
+
+#target
+{
+	width: 345px;
+}
+
+#legend 
+{
+	font-family: Raleway;
+	font-size: 16px;
+	background: #fff;
+	padding: 2px;
+	border: 3px solid #000;
+}
+
+#legend h3 
+{
+	margin-top: 0;
+}
+
+#legend img 
+{
+	vertical-align: middle;
+}
+
+#map 
+{
+	height: 90%;
+	width: 90%;
+	margin: 70px;
+}
