@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-
 <html>
 	<head>
 		<meta name="viewport" content="initial-scale=1.0, user-scalable=no">
@@ -27,11 +26,15 @@
 	<body>
 		<p id = "opening" >Care Connection </p>
 		<p id = "sub"> Free Services For Cancer Patients </p>
-		<br  id = "maptitle"><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-		<p > Map of Free Services: Click icons to view more information </p>
+		<img src = "LogoMakr.png" height="150" width="150" id = "butterfly"></img>
+
+		<br  id = "maptitle"><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+		<p id = "curheading"> Map of Free Services: Click icons to view more information </p>
+
 		<div id="map"></div>
-		<div id="legend"><h3>Legend</h3></div>
-		
+		<div class="container-fluid bg-B text-center"> 
+			<div id="legend"><h3>Legend</h3></div>
+		</div>
 		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 		<!-- Include all compiled plugins (below), or include individual files as needed -->
@@ -51,21 +54,27 @@
 			  <ul class="nav navbar-nav navbar-right">
 				<li><a href="#legend">ABOUT</a></li>
 				<li><a href="#maptitle">FIND SERVICES</a></li>
-				<li><a href="file:///C:/Users/Hannah%20Nordeen/Desktop/resources.html">RESOURCES</a></li>
+				<li><a href="file:///C:/Users/Hannah%20Nordeen/Desktop/CC-Final-Project/kiana.html" target = "_blank">RESOURCES</a></li>  <!-- may need to change later -->
 				<li><a href = "#contact">CONTACT</a></li>
 				<li class="dropdown">
 				  </a>
 				</li>
-				<li><a href="#"><span class="glyphicon glyphicon-search"></span></a></li>
 			  </ul>
 			</div>
 		  </div>
 		</nav>		
-		<script async defer
+		<script asyncdefer
 			src="https://maps.googleapis.com/maps/api/js?&callback=initMap">
 		</script>
-		<br><br><br><br><br>
-		<p id = "contact">Contact: bayarea.careconnection@gmail.com</p>
+		
+		<div class="container-fluid bg-C text-center"> 
+		<p id = "curheading">About</p>
+		<p class='infoPara'>Following a cancer diagnosis, patients and their families might have questions about the many resources available to support themselves and their families. We strive to connect patients with free services to better ease the emotional, physical, spiritual or social challenges that one might face while receiving treatment. This website was created by four high shcool girls during their Girls Who Code Summer Imersion Program at Electronic Arts.</p><br><br>
+		</div> 
+		<div class="container-fluid bg-D text-center"> 
+		<p id = "contact">Contact:</p>
+		<p> bayarea.careconnection@gmail.com</p>
 		<br><br><br>
+		</div>
 	</body>
 </html>
