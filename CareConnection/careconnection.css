@@ -8,10 +8,21 @@
 	margin-left: 10px;
 }
 
-#p2
-{
-	text-align: left;
-	font-size: 16px;	
+.bg-A {
+	background-color: #EBDEF0 ;
+	color: #ffffff;
+}
+.bg-B {
+	background-color:#D7BDE2;
+	color:#ffffff;
+}
+.bg-C {
+	background-color: #C39BD3;
+	color:#ffffff ;
+}
+.bg-D {
+	background-color: #884EA0;
+	color:#ffffff;
 }
 
 #sub
@@ -28,7 +39,20 @@ body
 	background-image: url("holdingHands.jpg"); 
 	background-size: 1280px 780px;
 	background-repeat: no-repeat; 
+	background-color: #EBDEF0;
 } 
+
+#curheading
+{
+	font-family: Great Vibes;
+	font-size: 50px;
+}
+
+#contact
+{
+	font-family: Great Vibes;
+	font-size: 50px;
+}
 
 h1
 {
@@ -39,18 +63,18 @@ h1
 
 p
 {
-	font-family: Rockwell, "Courier Bold", Courier, Georgia, Times, "Times New Roman", serif;
+	font-family: Raleway;
 	font-size: 30px;
-	margin-left: 80px;
 	text-align: center;
 }
 
-#p2
+
+#butterfly
 {
-	font-family: Rockwell, "Courier Bold", Courier, Georgia, Times, "Times New Roman", serif;
-	font-size: 30px;
-	margin-left: 80px;
-	text-align: left;
+	position: absolute;
+	TOP: 155px;
+	LEFT: 330px;
+	
 }
 
 .group_list
@@ -84,7 +108,7 @@ p
     color: #d5d5d5 !important;
 }
 
-/* On hover, the links will turn white */
+/* On hover, the links will turn black */
 .navbar-nav li a:hover 
 {
     color: #000000 !important;
@@ -103,31 +127,18 @@ p
     border-color: transparent;
 }
 
-
-
-.bg-1 
-{ 
-    background-color: #1abc9c; /* Green */
-    color: #ffffff;
-}
-
-.bg-2 
-{ 
-    background-color: #474e5d; /* Dark Blue */
-    color: #ffffff;
-}
-.bg-3 { 
-    background-color: #737575; /* White */
-    color: #555555;
-}
-
 .container-fluid 
 {
     padding-top: 5px;
     padding-bottom: 5px;
 }
 
-html, body {height: 100%; margin: 0; padding: 0;}
+html, body {
+	height: 100%; 
+	margin: 0; 
+	padding: 0;
+}
+
 #map {height: 100%;}
 .controls 
 {
@@ -144,7 +155,7 @@ html, body {height: 100%; margin: 0; padding: 0;}
 #pac-input 
 {
 	background-color: #fff;
-	font-family: Roboto;
+	font-family: Raleway;
 	font-size: 15px;
 	font-weight: 300;
 	margin-left: 12px;
@@ -160,7 +171,7 @@ html, body {height: 100%; margin: 0; padding: 0;}
 
 .pac-container 
 {
-	font-family: Roboto;
+	font-family: Raleway;
 }
 
 #type-selector 
@@ -172,7 +183,7 @@ html, body {height: 100%; margin: 0; padding: 0;}
 
 #type-selector label 
 {
-	font-family: Roboto;
+	font-family: Raleway;
 	font-size: 13px;
 	font-weight: 300;
 }
@@ -188,17 +199,22 @@ html, body {height: 100%; margin: 0; padding: 0;}
 	font-size: 16px;
 	background: #fff;
 	padding: 2px;
+	color: black;
 	border: 3px solid #000;
 }
 
 #legend h3 
 {
 	margin-top: 0;
+	color: black;
+	font-family: Great Vibes;
+	font-size: 40px;
 }
 
 #legend img 
 {
 	vertical-align: middle;
+	color: black;
 }
 
 #map 
